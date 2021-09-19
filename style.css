@@ -1,0 +1,343 @@
+
+/* css página principal Home */
+
+body {
+	font-family: 'Allison', cursiva;
+}
+}
+
+header {
+	background: linear-gradient(#FEFEFE, #0E90E3);
+	padding: 20px 0;
+}
+
+.caixa {
+	background: linear-gradient(#FEFEFE, #0E90E3);
+	text-align: center;
+	position: relative;
+	width: auto;
+	margin: 0 auto;
+}
+.caixa1 {
+	text-align: center;
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	background: #ADB18F;
+	color: white;
+}
+
+.logo {
+	width: 10%;
+	margin-top: 10px;	
+
+}
+
+
+.principal {
+	font-size: 20px;
+	background: #FEFEFE;
+}
+.titulo-principal {
+	margin: 0 20px 20px 0;
+	text-transform: uppercase;
+	text-align: center;
+	color: #006666;
+	font-size: 30px;
+	border: 3px solid #236599;
+	border-radius: 10px;
+	text-decoration: none;
+	padding-left: 20px;
+	font-style: italic;
+	font-weight: bold;
+
+}
+
+.titulo-descricao {
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: bold;
+	margin: 20px;
+	color: #789FE6;
+}
+
+
+nav {
+	position:  static;
+	top:110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 100px;
+	font-style: italic;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	line-height: 1.5;
+}
+
+nav a:hover {
+	color: #6B3FE0;
+	text-decoration: underline;
+}
+
+.matriz {
+	width: 100%;
+	border: 2px solid;
+
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto
+
+}   
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #0E90E3);
+}
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.video {
+	width: 560px;
+	margin: 1em auto;
+	background: #7f4b8a;
+
+}
+
+/* css página informações */
+
+
+/* css página historia */
+
+.principal{
+	background: white;
+	padding: 20px;
+	margin: 0 0;
+
+}
+
+.titulo-centralizado {
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	color: darkgreen;
+	padding: 30px 0 0 10px;
+	color: #789FE6;
+
+}
+
+#foto {
+	width: 30%;
+	border-radius: 10px 10px;
+	padding:  0 ;
+	box-shadow: 15px 15px 15px 0 #000000;
+
+}
+
+
+
+p {
+	text-align: center;
+
+}
+
+
+/* css página parques */
+
+.parques {
+	padding: 2em;
+	background: #FEFEFE;
+}
+
+.titulo-parques {
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	color: black;
+	padding: 1em;
+	color: #789FE6;
+	
+}
+
+.conteudo-parques {
+	width: 940px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 20px;
+
+}
+
+.todos-parques {
+	width: 640px;
+	margin: 0 auto;
+}
+
+
+.lista-parques {
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.itens {
+	line-height: 1.5;
+}
+
+.itens {
+	text-transform: uppercase;
+	color: darkslategray;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+
+.itens:before {
+	content: "🌲";
+
+}
+
+div a {
+	color: #E68B51;
+	text-decoration: none;
+}
+
+div a:hover {
+	color: #789FE6;
+	text-decoration: underline;
+}
+
+
+.info {
+	padding: 2em;
+	text-transform: uppercase;
+	background: #FEFEFE;
+
+}
+
+li strong {
+	font-weight: bold;
+}
+
+
+.foto-parques {
+	padding: 1em;
+	width: 70%;
+
+}
+
+.secfoto {
+	background: linear-gradient(#FEFEFE, #0E90E3);
+}
+
+
+
+
+/* css página contato */
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+
+
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: #F04922;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+
+}
+.enviar:hover {
+	background: #FFAC51;
+	transform: scale(1.2);
+
+}
+
+table {
+	margin: 20px 0 40px;
+}
+thead {
+	background:#ADB18F;
+	color: white;
+	font-weight: bold;
+
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px ;
+}
+
+footer {
+	text-align: center;
+	background: url("folha.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 24px;
+    margin: 20px 0;
+}
+ 
+
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .titulo-descricao, .mapa-conteudo, .video {
+		width: auto;
+
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+}
+
