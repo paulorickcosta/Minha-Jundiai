@@ -23,7 +23,7 @@ header {
 	position: relative;
 	width: 100%;
 	margin: 0 auto;
-	background: #ADB18F;
+	background: #0E90E3;
 	color: white;
 }
 
@@ -119,6 +119,38 @@ nav a:hover {
 
 /* css página informações */
 
+.titulo-cidade {
+	
+	font-weight: bold;
+	font-size: 30px;
+	color: black;
+	padding: 1em;
+	color: #789FE6;
+
+}
+
+.acidade {
+	padding: 2em 0 10em 30em;
+}
+
+.cidade {
+	line-height: 1.5;
+	padding: 0.2em;
+}
+
+.cidade {
+	text-transform: uppercase;
+	color: darkslategray;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+
+.cidade:before {
+	content: "🛈";
+
+}
+
 
 /* css página historia */
 
@@ -210,12 +242,12 @@ p {
 }
 
 div a {
-	color: #E68B51;
+	color: #B362F5;
 	text-decoration: none;
 }
 
 div a:hover {
-	color: #789FE6;
+	color: #5AF564;
 	text-decoration: underline;
 }
 
@@ -312,7 +344,7 @@ td, th {
 
 footer {
 	text-align: center;
-	background: url("folha.jpg");
+	background: #0E90E3;
 	padding: 40px 0;
 }
 
