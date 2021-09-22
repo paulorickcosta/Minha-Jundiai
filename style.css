@@ -131,6 +131,8 @@ nav a:hover {
 
 .acidade {
 	padding: 2em 0 10em 30em;
+	background: linear-gradient(#FEFEFE, #0E90E3);
+	
 }
 
 .cidade {
@@ -153,7 +155,6 @@ nav a:hover {
 
 
 /* css página historia */
-
 .principal{
 	background: white;
 	padding: 20px;
@@ -272,6 +273,32 @@ li strong {
 
 .secfoto {
 	background: linear-gradient(#FEFEFE, #0E90E3);
+}
+
+/*perfil*/
+
+.todos-perfil {
+    width: 640px;
+	margin: 0 auto;
+}
+
+.listaperfil {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.perfil {
+   text-transform: uppercase;
+	color: darkslategray;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+/*hino*/
+
+.letra-hino {
+	font-size: 20px;
+	
 }
 
 
