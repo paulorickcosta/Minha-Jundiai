@@ -4,26 +4,26 @@
 body {
 	font-family: 'Allison', cursiva;
 }
-}
+
 
 header {
-	background: linear-gradient(#FEFEFE, #0E90E3);
-	padding: 20px 0;
+	background: linear-gradient(#FEFEFE, #123859);
+	padding: 0 0;
 }
 
 .caixa {
-	background: linear-gradient(#FEFEFE, #0E90E3);
+	background: linear-gradient(#FEFEFE, #123859);
 	text-align: center;
 	position: relative;
 	width: auto;
-	margin: 0 auto;
+	padding: 0 0 50px 0;
 }
 .caixa1 {
 	text-align: center;
 	position: relative;
 	width: 100%;
 	margin: 0 auto;
-	background: #0E90E3;
+	background: #123859;
 	color: white;
 }
 
@@ -44,7 +44,7 @@ header {
 	text-align: center;
 	color: #006666;
 	font-size: 30px;
-	border: 3px solid #236599;
+	border: 3px solid #419FD9;
 	border-radius: 10px;
 	text-decoration: none;
 	padding-left: 20px;
@@ -59,7 +59,7 @@ header {
 	font-style: italic;
 	font-weight: bold;
 	margin: 20px;
-	color: #789FE6;
+	color: #419FD9;
 }
 
 
@@ -85,7 +85,7 @@ nav a {
 }
 
 nav a:hover {
-	color: #6B3FE0;
+	color: #8C7503;
 	text-decoration: underline;
 }
 
@@ -103,7 +103,7 @@ nav a:hover {
 
 .mapa {
 	padding: 3em 0;
-	background: linear-gradient(#FEFEFE, #0E90E3);
+	background: linear-gradient(#FEFEFE, #03738C);
 }
 .mapa p {
 	margin: 0 0 2em;
@@ -125,13 +125,13 @@ nav a:hover {
 	font-size: 30px;
 	color: black;
 	padding: 1em;
-	color: #789FE6;
+	color: #419FD9;
 
 }
 
 .acidade {
 	padding: 2em 0 10em 30em;
-	background: linear-gradient(#FEFEFE, #0E90E3);
+	background: #FEFEFE;
 	
 }
 
@@ -153,6 +153,132 @@ nav a:hover {
 
 }
 
+/*perfil*/
+
+.todos-perfil {
+    width: 640px;
+	margin: 0 auto;
+}
+
+.listaperfil {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.perfil {
+   text-transform: uppercase;
+	color: darkslategray;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+/*hino*/
+
+.letra-hino {
+	font-size: 20px;
+	
+}
+
+/*Símbolos */
+
+
+
+.simbolos {
+	padding: 0 0 200px 0;
+	font-size: 20px;
+	
+}
+
+.titulo-simbolos {
+	text-align: left;
+	font-weight: bold;
+	font-size: 25px;
+	color: darkgreen;
+	padding: 30px 0 0 10px;
+	color: #419FD9;
+
+}
+
+.abandeira{
+	text-align: left;
+	font-weight: bold;
+	font-size: 20px;
+	color: darkgreen;
+	padding: 30px 0 0 10px;
+	color: black;
+
+}
+
+.bandeira {
+	width: 300px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.text_brasao {
+	padding: 0 0 200px 0;
+	font-size: 20px;
+
+}
+
+.titulo_brasao {
+	text-align: left;
+	font-weight: bold;
+	font-size: 20px;
+	color: darkgreen;
+	padding: 30px 0 0 10px;
+	color: black;
+}
+
+.brasao1 {
+	width: 300px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+/* feriados e pontos facultativos */
+
+.feriado1 {
+	padding: 0 0 200px 0;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+.titulo-feriados {
+	font-weight: bold;
+	font-size: 25px;
+	color: darkgreen;
+	padding: 30px 0 0 10px;
+	color: #789FE6;
+}
+
+.feriados1 {
+	font-weight: bold;
+	font-size: 20px;
+	color: darkgreen;
+	color: black;
+	padding: 1em;
+
+}
+
+/*conheça seu bairro */
+
+.lista-cidade {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.bairro:before {
+	content: "🏡 ";
+
+}
+
+#foto-jundiai {
+	padding: 100px 0 0 0;
+	width: 100%;
+
+}
 
 /* css página historia */
 .principal{
@@ -168,7 +294,7 @@ nav a:hover {
 	font-size: 25px;
 	color: darkgreen;
 	padding: 30px 0 0 10px;
-	color: #789FE6;
+	color: #419FD9;
 
 }
 
@@ -201,7 +327,7 @@ p {
 	font-size: 30px;
 	color: black;
 	padding: 1em;
-	color: #789FE6;
+	color: #419FD9;
 	
 }
 
@@ -243,12 +369,12 @@ p {
 }
 
 div a {
-	color: #B362F5;
+	color: #A68160;
 	text-decoration: none;
 }
 
 div a:hover {
-	color: #5AF564;
+	color: #8C7503;
 	text-decoration: underline;
 }
 
@@ -272,34 +398,10 @@ li strong {
 }
 
 .secfoto {
-	background: linear-gradient(#FEFEFE, #0E90E3);
+	background: linear-gradient(#FEFEFE, #03738C);
 }
 
-/*perfil*/
 
-.todos-perfil {
-    width: 640px;
-	margin: 0 auto;
-}
-
-.listaperfil {
-	display: inline-block;
-	vertical-align: top;
-}
-
-.perfil {
-   text-transform: uppercase;
-	color: darkslategray;
-	font-weight: bold;
-	font-size: 15px;
-}
-
-/*hino*/
-
-.letra-hino {
-	font-size: 20px;
-	
-}
 
 
 
@@ -308,6 +410,7 @@ li strong {
 main {
 	width: 940px;
 	margin: 0 auto;
+
 }
 
 form {
@@ -371,7 +474,7 @@ td, th {
 
 footer {
 	text-align: center;
-	background: #0E90E3;
+	background: #03738C;
 	padding: 40px 0;
 }
 
@@ -399,4 +502,5 @@ footer {
 		width: 100%;
 	}
 }
+
 
