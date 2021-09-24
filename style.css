@@ -6,6 +6,8 @@ body {
 }
 
 
+}
+
 header {
 	background: linear-gradient(#FEFEFE, #123859);
 	padding: 0 0;
@@ -472,6 +474,7 @@ td, th {
 	padding: 8px 15px ;
 }
 
+
 footer {
 	text-align: center;
 	background: #03738C;
@@ -503,4 +506,63 @@ footer {
 	}
 }
 
+button.slick-prev {
+	font-size: 0px;
+	border: none;
+	width: 25px;
+	height:51px;
+	z-index: 9;
+	background-color: #03738C;
+	position: absolute;
+	background-image: url(esquerda2.jpg);
+	top: 275%;
+	left: 0;
 
+}
+
+button.slick-next {
+	font-size: 0px;
+	border: none;
+	width: 25px;
+	height:51px;
+	z-index: 9;
+	background-color: #03738C;
+	position: absolute;
+	background-image: url(esquerda2.jpg);
+	top: 270%;
+	right: 0;
+
+}
+
+
+.slick-dots li button {
+	font-size: 0px;
+	border: 5px solid #FFFFFF;
+	width: 26px;
+	height: 26px;
+	background: transparent;
+	border-radius: 50%;
+	cursor: pointer;
+
+}
+
+.slick-dots li {
+	padding-left: 10px;
+	display:inline-block;
+}
+
+.slick-dots {
+	margin: 0 auto;
+	width: 50%;
+	position: absolute;
+	left: 46%;
+	top: 310%;
+}
+
+li.slick-active button {
+   background: #03738C;
+}
+
+.slick-initialized {
+	overflow: hidden;
+}
